@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Donnez une valeur :"
+        android:textStyle="bold"
+        android:textColor="#252196"
+        android:gravity="center"
+        />
+    <EditText android:text=""
+        android:id="@+id/editTxtValeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+       />
+
+    <Button
+        android:text="@string/envoyer"
+        android:id="@+id/btnEnvoyer"
+        android:textColor="#ffffff"
+        android:background="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+
+    <Button
+        android:text="@string/act2"
+        android:id="@+id/btnAct2"
+        android:textColor="#ffffff"
+        android:background="#FF9800"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+
+    <Button
+        android:text="@string/quitter"
+        android:id="@+id/btnQuitter"
+        android:textColor="#ffffff"
+        android:background="#F44336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+
+</LinearLayout>
